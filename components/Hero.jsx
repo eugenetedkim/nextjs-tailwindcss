@@ -1,17 +1,18 @@
-import React from 'react'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className='flex items-center justify-center h-screen mb-0 bg-fixed bg-center bg-cover custom-img'>
-      {/* Overlay */}
-      <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/70'/>
-      <div>
-        <h2>Heading</h2>
-        <p>Message</p>
-        <button>Book</button>
-      </div>
+    <div>
+      <Image
+        src="/images/convictlake.jpg"
+        fill
+        objectFit="cover"
+        objectPosition="left center"
+        alt=""
+      />
+      
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
