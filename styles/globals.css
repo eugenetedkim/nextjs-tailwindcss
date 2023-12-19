@@ -6,8 +6,3 @@ html {
   scroll-behavior: smooth;
   font-family: 'Raleway', sans-serif;
 }
-
-.custom-img {
-  background-image: url('/images/convictlake.jpg');
-  background-position: left 15% center; /* Adjust the positioning as needed */
-}

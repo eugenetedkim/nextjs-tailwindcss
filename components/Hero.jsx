@@ -2,16 +2,21 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div class="relative w-full h-screen overflow-hidden">
-      <Image
-        src="/images/convictlake.jpg"
-        fill
-        objectFit="cover"
-        objectPosition="left center"
-        alt=""
-      />
+    <div className='flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover'>
+      <div className="absolute top-0 right-0 bottom-0 left-0 z-10">
+        <Image
+          src="/images/convictlake.jpg"
+          fill
+          objectFit="cover"
+          objectPosition="left center"
+          alt=""
+        />
+      </div>
+      
       {/* Overlay */}
-      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white text-center">
+      <div className="absolute top-0 right-0 bottom-0 left-0 z-20 bg-black/70" />
+
+      <div className="absolute z-30 text-center">
         <h2>Heading</h2>
         <p>Message</p>
         <button>Book</button>
