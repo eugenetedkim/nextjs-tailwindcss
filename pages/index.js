@@ -1,9 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Raleway } from 'next/font/google'
 import Hero from '../components/Hero';
-
-const raleway = Raleway({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -14,7 +10,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero />
+      <Hero heading="Eugene Kim" message="I think, therefore I am."/>
     </>
   )
 }
