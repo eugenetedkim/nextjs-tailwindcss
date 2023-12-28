@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero heading="Eugene Kim" message="I think, therefore I am."/>
+      <Hero heading="Hi, I'm Eugene. A Software Engineer." message="I solve problems through code, design, and critical thinking."/>
     </>
   )
 }
