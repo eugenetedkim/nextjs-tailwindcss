@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 function Hero({heading, message}) {
   return (
-    <div className='relative flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover'>
+    <div className='relative flex items-center justify-center h-screen mb-96 bg-fixed bg-center bg-cover'>
       <div className="absolute top-0 right-0 bottom-0 left-0 z-[0]">
         <Image
           src="/images/convictlake.jpg"
