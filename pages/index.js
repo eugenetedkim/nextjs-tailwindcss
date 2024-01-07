@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Hero from '../components/Hero';
+import Slider from '../components/Slider';
+import { SliderData } from '../components/SliderData';
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero heading="Hi, I'm Eugene. A Software Engineer." message="I solve problems through code, design, and critical thinking."/>
+      <Slider slides={SliderData} />
     </>
   )
 }
