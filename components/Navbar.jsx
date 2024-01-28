@@ -62,7 +62,7 @@ export default function Navbar() {
           <div onClick={handleMobileMenu} className='sm:hidden z-10'>
           {
             isMobileMenuDislayed ?
-              <AiOutlineClose className={`${textColor}`} size={20} />
+              <AiOutlineClose className='text-white' size={20} />
             :
               <AiOutlineMenu className={`${textColor}`} size={20} />
           }
