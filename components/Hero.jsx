@@ -5,7 +5,7 @@ export default function Hero({ heading, message }) {
   return (
     <>
       {/* Hero Container */}
-      <div className='relative flex justify-center h-screen items-center mb-12'>
+      <div className='relative flex justify-center h-screen items-center mb-96'>
 
         {/* Hero Background Image */}
         <Image

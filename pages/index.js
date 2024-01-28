@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero heading="Eugene Kim" message="Software Engineer"/>
-      <Slider slides={SliderData} />
+      {/* <Slider slides={SliderData} /> */}
     </>
   )
 }
